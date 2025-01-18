@@ -6,29 +6,18 @@ return {
     local dashboard = require("alpha.themes.dashboard")
 
     dashboard.section.header.val = {
-      [[          ▀████▀▄▄              ▄█ ]],
-      [[            █▀    ▀▀▄▄▄▄▄    ▄▄▀▀█ ]],
-      [[    ▄        █          ▀▀▀▀▄  ▄▀  ]],
-      [[   ▄▀ ▀▄      ▀▄              ▀▄▀  ]],
-      [[  ▄▀    █     █▀   ▄█▀▄      ▄█    ]],
-      [[  ▀▄     ▀▄  █     ▀██▀     ██▄█   ]],
-      [[   ▀▄    ▄▀ █   ▄██▄   ▄  ▄  ▀▀ █  ]],
-      [[    █  ▄▀  █    ▀██▀    ▀▀ ▀▀  ▄▀  ]],
-      [[   █   █  █      ▄▄           ▄▀   ]],
+      [[                               __                ]],
+      [[  ___     ___    ___   __  __ /\_\    ___ ___    ]],
+      [[ / _ `\  / __`\ / __`\/\ \/\ \\/\ \  / __` __`\  ]],
+      [[/\ \/\ \/\  __//\ \_\ \ \ \_/ |\ \ \/\ \/\ \/\ \ ]],
+      [[\ \_\ \_\ \____\ \____/\ \___/  \ \_\ \_\ \_\ \_\]],
+      [[ \/_/\/_/\/____/\/___/  \/__/    \/_/\/_/\/_/\/_/]],
     }
 
-    dashboard.section.buttons.val = {
-      dashboard.button("SPC cl", "🪄 > Open CLI", "<cmd>FineCmdline<CR>"),
-      dashboard.button("SPC ee", "🪄 > Toggle file explorer", "<cmd>NvimTreeToggle<CR>"),
-      dashboard.button("SPC ff", "🪄 > Find File", "<cmd>Telescope find_files<CR>"),
-      dashboard.button("SPC fs", "🪄 > Find Sessions", "<cmd>SessionSearch<CR>"),
-      dashboard.button("SPC fg", "🪄 > Find Word", "<cmd>Telescope live_grep<CR>"),
-      dashboard.button("SPC ft", "🪄 > Find TODOs", "<cmd>TodoTelescope<CR>"),
-      dashboard.button("q", "🪦 > Quit NVIM", "<cmd>qa<CR>"),
-    }
+    dashboard.section.buttons.val = {}
 
     local function footer()
-      return "Don't Stop Until You are Proud..."
+      return "The best way to predict the future is to create it."
     end
 
     dashboard.section.footer.val = footer()
