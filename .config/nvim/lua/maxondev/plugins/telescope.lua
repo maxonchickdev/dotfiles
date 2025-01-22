@@ -13,8 +13,18 @@ return {
 
     telescope.setup({
       defaults = {
-        file_ignore_patterns = { "./node_modules/*", "node_modules", "^node_modules/*", "node_modules/*" },
-        path_display = { "smart" },
+        file_ignore_patterns = {
+          "./node_modules/*",
+          "node_modules",
+          "^node_modules/*",
+          "node_modules/*",
+          ".husky/_/*",
+          "apps/client/.next/*",
+          ".nx/",
+          ".git/*",
+          "dist/*",
+          ".DS_Store",
+        },
         preview = true,
         mappings = {
           i = {
@@ -27,7 +37,6 @@ return {
       pickers = {
         find_files = {
           hidden = true,
-          theme = "dropdown",
         },
       },
     })
