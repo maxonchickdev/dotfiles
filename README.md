@@ -25,9 +25,20 @@ git clone https://github.com/maxonchickdev/dotfiles.git
 ```zsh
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/dotfiles/.nvmrc ~/.nvmrc
 ```
 
-4. Install zsh
+4. Install nvm
+
+```zsh
+# Using curl
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+# Or wget
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+```
+
+5. Install zsh
 
 ```zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -35,7 +46,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 source ~/.zshrc
 ```
 
-4. Install Homebrew, followed by the software listed in the Brewfile
+6. Install Homebrew, followed by the software listed in the Brewfile
 
 ```zsh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -43,7 +54,7 @@ source ~/.zshrc
 brew bundle --file ~/Brewfile
 ```
 
-5. Setup mac os settings
+7. Setup mac os settings
 
 ```zsh
 chmod +x ./os.sh
