@@ -35,12 +35,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 source ~/.zshrc
 ```
 
-4. Install Homebrew, followed by the software listed in the .Brewfile
+4. Install Homebrew, followed by the software listed in the Brewfile
 
 ```zsh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-brew bundle --file ~/.Brewfile
+brew bundle --file ~/Brewfile
 ```
 
 5. Setup mac os settings
