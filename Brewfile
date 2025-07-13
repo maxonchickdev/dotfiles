@@ -14,4 +14,3 @@ brew "sl"
 brew "tree"
 # Internet file retriever
 brew "wget"
-cask "twitch"
