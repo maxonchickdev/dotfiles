@@ -1,9 +1,5 @@
 # dotfiles
 
-Dotfiles by maxondev
-
-# Steps to bootstrap a new mac
-
 1. Install Apple's Command Line Tools, which are prerequisites for Git and Homebrew
 
 ```zsh
