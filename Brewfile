@@ -14,3 +14,5 @@ brew "sl"
 brew "tree"
 # Internet file retriever
 brew "wget"
+# GitHub command-line tool
+brew "gh"
