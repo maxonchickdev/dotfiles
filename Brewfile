@@ -1,3 +1,5 @@
+tap "yakitrak/yakitrak"
+
 # Pack, ship and run any application as a lightweight container
 brew "docker"
 # Google Drive CLI Client
@@ -22,6 +24,10 @@ brew "awscli"
 brew "autoconf"
 # Create, run, and share large language models (LLMs)
 brew "ollama"
+# Terminal-based Tetris clone
+brew "vitetris"
+
+brew "yakitrak/yakitrak/obsidian-cli"
 
 # Messaging app with a focus on speed and security
 cask "telegram"
